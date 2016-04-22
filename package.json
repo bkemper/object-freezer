@@ -1,0 +1,32 @@
+{
+  "name": "object-freezer",
+  "version": "0.0.1",
+  "description": "Recursively freeze an Object with option to ignore",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkemper/object-freezer.git"
+  },
+  "keywords": [
+    "Object",
+    "freeze",
+    "deep freeze"
+  ],
+  "author": "Brian Kemper <Kemper10@gmail.com> (https://github.com/bkemper)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkemper/object-freezer/issues"
+  },
+  "homepage": "https://github.com/bkemper/object-freezer#readme",
+  "engines": {
+    "node": "^5.5.0",
+    "npm": "^3.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
